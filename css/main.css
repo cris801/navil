@@ -1,0 +1,169 @@
+body{
+    background-image: url(../img/imagen.jpg);
+    height: 100vh; 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+
+
+/* ---------------- globales ----------------- */
+div.contenido{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* ---------------- encabezado ----------------- */
+div.encabezado {
+    width: 1200px;
+    margin: 20px auto
+}
+
+div.encabezado img{
+    width: 1200px;
+   
+}
+
+
+/* ---------------- barra de nav ----------------- */
+div.barra{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+div.barra{
+    background-color: #353535;
+    padding: 25px 0px;
+    font-family: 'Arial Black';
+    text-align: center;
+}
+
+div.logo{
+    width: 20%;
+    float: right;    /*logo a la izquierda*/
+}
+div.logo img{
+    width: 35%;
+}
+
+
+nav.menu a{
+    color: #c1c1c1;
+    text-decoration: none;
+    padding: 0px 50px;
+    text-transform: uppercase;
+}
+
+
+
+/* ---------------- link ----------------- */
+nav.menu a:link{
+    color: blue;
+}
+nav.menu a:visited{
+    color: #9e9c06;
+}
+nav.menu a:hover{
+    color: white;
+}
+nav.menu a:active{
+    color: rgb(0, 0, 0);
+}
+
+a.home:link, a.home:visited{
+    color: #9e9c06 !important;
+    border: solid 2px #9e9c06;
+    text-align: center;
+    padding: 15px 40px;
+    /* text-decoration: none; */
+}
+a.home:hover{
+    background-color:  #9e9c06;
+    color: #353535 !important;
+}
+
+
+/* ---------------- contenido ----------------- */
+.contenido,.contenedor{
+    text-align: justify;
+    font-family: 'Arial';
+
+}
+
+h1,h2{
+    text-align: center;
+    border: solid 5px #353535;
+    border-radius: 20px;
+    background-color: #353535; 
+    color: #9e9c06;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+
+h2{
+    text-decoration: none;
+    text-shadow: 7px 5px #000000;
+}
+
+p.normal,p.italic,p.oblique{
+    padding: 40px 20px;
+    border: solid 5px #353535;
+    background-color: #c1c1c1;
+    margin:10px 40px;
+}
+
+
+/* ---------------- formulario ----------------- */
+form{
+    padding: 40px 20px;
+    border: solid 5px #353535;
+    background-color: #c1c1c1;
+    margin:10px 0px;
+}
+
+
+
+
+
+/* ---------------- parrafos ----------------- */
+p.normal{
+    font-style: normal;
+    font-size: 15px;
+}
+p.italic{
+    font-style: italic;
+    font-size: 150%;
+}
+p.oblique{
+    font-style: oblique;
+    font-size: 30px;
+}
+
+/* ---------------- pag secundaria ----------------- */
+iframe{
+    float: right;
+}
+
+
+
+/* ---------------- tabla ----------------- */
+table{
+    font-family: 'Arial Black';
+    width: 100%;
+}
+th{
+    background-color: #353535;
+    color: #c1c1c1;
+}
+tr:nth-child(even){
+    background-color: #c1c1c1;
+    color: #000000;
+}
+
+
+
+/* ----------------  ----------------- */
