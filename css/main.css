@@ -11,15 +11,28 @@ body{
 /* ---------------- globales ----------------- */
 div.contenido{
     width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
+    background-color: #ebdfdf;
+    padding: 0px 0px;
+    /* transform: scale(1.1);  va crecer */
+    /* border: 1px solid #fe4918;  cuando crece se ve el borde */
+    box-shadow: 0px 0px 50px rgb(5, 5, 5);  /* al borde se le ve una sombra*/
 }
+
+.contenedor{
+    padding: 3px 20px;
+
+}
+
 
 
 
 /* ---------------- encabezado ----------------- */
 div.encabezado {
     width: 1200px;
-    margin: 20px auto
+    margin: 30px auto 15px auto;
+    
+
 }
 
 div.encabezado img{
@@ -35,7 +48,7 @@ div.barra{
     
 }
 div.barra{
-    background-color: #353535;
+    background-color: #1b1919;
     padding: 25px 0px;
     font-family: 'Arial Black';
     text-align: center;
@@ -51,7 +64,7 @@ div.logo img{
 
 
 nav.menu a{
-    color: #c1c1c1;
+    
     text-decoration: none;
     padding: 0px 50px;
     text-transform: uppercase;
@@ -67,7 +80,7 @@ nav.menu a:visited{
     color: #9e9c06;
 }
 nav.menu a:hover{
-    color: white;
+    color: #ebdfdf;
 }
 nav.menu a:active{
     color: rgb(0, 0, 0);
@@ -82,7 +95,7 @@ a.home:link, a.home:visited{
 }
 a.home:hover{
     background-color:  #9e9c06;
-    color: #353535 !important;
+    color: #ebdfdf !important;
 }
 
 
@@ -90,14 +103,14 @@ a.home:hover{
 .contenido,.contenedor{
     text-align: justify;
     font-family: 'Arial';
+    
 
 }
 
 h1,h2{
     text-align: center;
-    border: solid 5px #353535;
     border-radius: 20px;
-    background-color: #353535; 
+    background-color: #1b1919; 
     color: #9e9c06;
     text-decoration: line-through;
     text-transform: capitalize;
@@ -110,19 +123,12 @@ h2{
 }
 
 p.normal,p.italic,p.oblique{
-    padding: 40px 20px;
-    border: solid 5px #353535;
-    background-color: #c1c1c1;
-    margin:10px 40px;
 }
 
 
 /* ---------------- formulario ----------------- */
 form{
-    padding: 40px 20px;
-    border: solid 5px #353535;
-    background-color: #c1c1c1;
-    margin:10px 0px;
+    padding: 0px 0px;
 }
 
 
@@ -144,8 +150,8 @@ p.oblique{
 }
 
 /* ---------------- pag secundaria ----------------- */
-iframe{
-    float: right;
+div.segunda-pagina iframe{
+    padding: 0px 0px !important;
 }
 
 
@@ -156,7 +162,7 @@ table{
     width: 100%;
 }
 th{
-    background-color: #353535;
+    background-color: #1b1919;
     color: #c1c1c1;
 }
 tr:nth-child(even){
